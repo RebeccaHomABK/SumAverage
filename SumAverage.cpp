@@ -26,10 +26,12 @@ int main()
     cin >> c;
 
     //  Gets the sum of the numbers
-    int sum = a + b + c;
+    int sum;
+    sum = a + b + c;
 
     //  Gets the average of the numbers
-    float average = sum / 3.0f;
+    float average;
+    average = sum / 3.0f;
 
     //  Displays the sum and average to the user
     cout << "The sum is: " << sum << endl;
